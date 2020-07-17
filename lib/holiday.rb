@@ -7,10 +7,8 @@ end
 def add_supply_to_winter_holidays(holiday_hash, supply)
    holiday_hash[:winter].each do |holiday, decorations|
    decorations.push(item)
-  end
 end
 
-add_supply_to_winter_holidays(holiday_supplies, "Balloons")
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
